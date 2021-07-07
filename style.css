@@ -1,19 +1,23 @@
 body {
-    background: white; 
+    background-image: url("Succulent_minimal.jpg");
+    background-position: top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: white; 
     font-family: 'Inconsolata', monospace;
     src: url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
 }
 
 img {
-    display: inline-block;
+    display:inline-block;
     margin: 0%;
 }
 
 h1 {
-    font-size: 3.25em;
-    line-height: 1em;
+    font-size: 2.25em;
+    line-height: .01em;
     letter-spacing: .05em;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -32,7 +36,19 @@ h3 {
 
 p {
     font-size: .9em;
-    line-height: 1.8em;
+    line-height: .9em;
     letter-spacing: .05em;
     margin-bottom: 15px;
+}
+
+.front {
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 0.5px;
+}
+
+.jannette-text {
+    text-align: left;
+    margin-left: 115px;
+    margin-top: 570px;
 }
