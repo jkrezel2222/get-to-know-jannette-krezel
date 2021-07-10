@@ -1,3 +1,9 @@
-const h2 = document.createElement('h2');
-h2.textContent = "";
-document.querySelector('body').appendChild(h2);
+const targetDiv = document.getElementById("main-text");
+const btn = document.getElementById("toggle");
+btn.onclick = function () {
+    if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+    } else {
+        targetDiv.style.display = "block";
+    }
+};
